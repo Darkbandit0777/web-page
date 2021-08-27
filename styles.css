@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap);
+body{
+    font-family: "Patrick Hand",cursive;
+    max-width: 60%;
+    margin: auto;
+    color: rgb(126, 60, 34);
+
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    color: darkred;
+}
+
+.coral{
+    color: coral;
+}
+.hrline{
+    border: 1px solid rgb(243, 100, 84);
+}
+.table-heading{
+    min-width: 300px;
+}
+.table-pros{
+    font-size: 25px;
+    color: coral;
+    display: block;
+}
+.marginspace{
+    margin-top: 20px;
+}
+.jobhead{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.jobtail{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.jobmid{
+    font-family: 'Times New Roman', Times, serif;
+
+}
